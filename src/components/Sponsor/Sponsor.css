@@ -1,0 +1,19 @@
+.sponsor {
+    display: flex;
+    margin-top: .75em;
+    align-items: center;
+}
+
+.sponsor-img {
+    max-width: 150px;
+    margin-right: .75em;
+}
+
+.sponsor-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.sponsor-info a {
+    color: white;
+}

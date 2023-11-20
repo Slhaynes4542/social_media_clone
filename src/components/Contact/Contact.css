@@ -1,0 +1,9 @@
+.contact {
+    display: flex;
+    margin-top: .5em; 
+    
+}
+
+.contact-item {
+    margin-left: .5em;
+}

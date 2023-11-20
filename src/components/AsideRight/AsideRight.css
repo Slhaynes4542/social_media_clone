@@ -1,0 +1,30 @@
+:root{
+    --haeder-dark-theme: #242526;
+    --text-color: #e4e6eb;
+    --search-bar-color: #3a3b3c;
+    --primary: #3f51b5;
+    --secondary:#b0b3b8;
+}
+
+.aside-right{
+      width: 25%;
+      color: white;
+      border-radius: 10px;
+      margin-left: 50px;
+      margin-right: 5px;
+
+}
+
+.sponsors {
+    border-bottom: 2px solid var(--secondary);
+    margin-left: .75em;
+    margin-right: .75em;
+    padding-bottom: .75em;
+
+}
+
+.contacts {
+    margin-left: .75em;
+    margin-right: .75em;
+    padding-bottom: .75em;
+}

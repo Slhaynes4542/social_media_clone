@@ -1,0 +1,16 @@
+:root{
+    --haeder-dark-theme: #242526;
+    --text-color: #e4e6eb;
+    --search-bar-color: #3a3b3c;
+    --primary: #3f51b5;
+    --secondary:#b0b3b8;
+    --back-color: #18191a;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    background-color: var(--back-color);
+    width: 105%;
+}

@@ -29,7 +29,7 @@ function Header() {
           {/* Search Bar */}
           <div className="search-bar">
             <SearchRoundedIcon fontSize='medium' className='search-icon icon'/>
-            <input placeholder='search' className='input-bar' />
+            <input placeholder='search Facebook' className='input-bar' />
           </div>
         </div>
         <div className='header-center'>

@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './components/Header/Header.jsx'
-import Feed from './components/Feed/Feed.jsx'
+import Content from './components/Content/Content.jsx'
 
 function App() {
 
   return (
     <>
       <Header/>
-      <Feed/>
+      <Content/>
     </>
   )
 }
