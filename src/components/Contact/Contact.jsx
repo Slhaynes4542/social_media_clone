@@ -10,9 +10,9 @@ function Contact({image, name}) {
 
   return (
     <>
-        <div className="contact">
-            <AccountCircleRoundedIcon/>
-              <p className='contact-item'>{name}</p>
+        <div className="contact-item">
+            <AccountCircleRoundedIcon className='contact-img'/>
+              <p>{name}</p>
         </div>
     </>
   )

@@ -2,6 +2,11 @@
     display: flex;
     margin-top: .75em;
     align-items: center;
+    border-radius: 10px;
+}
+
+.sponsor:hover {
+    background-color: var(--search-bar-color);
 }
 
 .sponsor-img {

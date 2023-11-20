@@ -15,6 +15,11 @@ import ShareIcon from '@mui/icons-material/Share';
 import FavoriteTwoToneIcon from '@mui/icons-material/FavoriteTwoTone';
 import RecommendTwoToneIcon from '@mui/icons-material/RecommendTwoTone';
 import StarsTwoToneIcon from '@mui/icons-material/StarsTwoTone';
+import FlagRoundedIcon from '@mui/icons-material/FlagRounded';
+import PeopleRoundedIcon from '@mui/icons-material/PeopleRounded';
+import VideoLibraryRoundedIcon from '@mui/icons-material/VideoLibraryRounded';
+import AddPhotoAlternateRoundedIcon from '@mui/icons-material/AddPhotoAlternateRounded';
+import MoodRoundedIcon from '@mui/icons-material/MoodRounded';
 
 export {
     FacebookRoundedIcon,
@@ -32,5 +37,11 @@ export {
     ShareIcon,
     RecommendTwoToneIcon,
     FavoriteTwoToneIcon,
-    StarsTwoToneIcon
+    StarsTwoToneIcon,
+    FlagRoundedIcon,
+    PeopleRoundedIcon,
+    VideoLibraryRoundedIcon,
+    AddPhotoAlternateRoundedIcon,
+    MoodRoundedIcon
+    
 }

@@ -1,9 +1,21 @@
 .contact {
-    display: flex;
-    margin-top: .5em; 
+
     
 }
 
 .contact-item {
+    display: flex;
+    margin-top: .5em; 
     margin-left: .5em;
+    padding: 5px;
+    width: 85%;
+    border-radius: 10px;
+}
+
+.contact-item:hover {
+    background-color: var(--search-bar-color);
+}
+
+.contact-img {
+    margin-right: .5em;
 }

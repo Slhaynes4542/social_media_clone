@@ -3,6 +3,7 @@ import Feed from '../Feed/Feed.jsx'
 import AsideLeft from '../AsideLeft/AsideLeft.jsx'
 import './Content.css'
 import AsideRight from '../AsideRight/AsideRight.jsx'
+import CreatePost from '../CreatePost/CreatePost.jsx'
 
 function Content() {
 
@@ -11,8 +12,14 @@ function Content() {
     <div className="content">
       {/*Aside : Apps*/}
       <AsideLeft/>
-      {/*Feed*/}
-      <Feed/>
+      
+      <div className="center">
+        {/*Create Post*/}
+        <CreatePost/>
+        {/*Feed*/}
+        <Feed/>
+      </div>
+
       {/*Aside : Contacts*/}
       <AsideRight/>
     </div>

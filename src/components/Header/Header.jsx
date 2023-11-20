@@ -34,23 +34,34 @@ function Header() {
         </div>
         <div className='header-center'>
             {/*Home Icon*/}
-            <HomeRoundedIcon fontSize='large' className='center-icon icon active'/>
+            <div className="icon">
+            <HomeRoundedIcon fontSize='large' className='center-icon active'/>
+            </div>
+            
             {/*Video Icon*/}
-            <OndemandVideoRoundedIcon fontSize='large' className='center-icon icon'/>
+            <div className="icon">
+              <OndemandVideoRoundedIcon fontSize='large' className='center-icon'/>
+            </div>
             {/*Marketplace Icon*/}
-            <StorefrontRoundedIcon fontSize='large' className='center-icon icon'/>
+            <div className="icon">
+              <StorefrontRoundedIcon fontSize='large' className='center-icon'/>
+            </div>
             {/*Groups Icon*/}
-            <GroupsRoundedIcon fontSize='large' className='center-icon icon'/>
+            <div className="icon">
+            <GroupsRoundedIcon fontSize='large' className='center-icon'/>
+            </div>
             {/*Gaming Icon*/}
-            <SportsEsportsRoundedIcon fontSize='large' className='center-icon icon'/>
+            <div className="icon">
+              <SportsEsportsRoundedIcon fontSize='large' className='center-icon'/>
+            </div>
         </div>
         <div className="header-right">
             {/*Messages Icon*/}
-            <MessageRoundedIcon fontSize='large' className='right-icon icon'/>
+            <MessageRoundedIcon fontSize='large' className='right-icon'/>
             {/*Notification Icon*/}
-            <NotificationsNoneRoundedIcon fontSize='large' className='right-icon icon'/>
+            <NotificationsNoneRoundedIcon fontSize='large' className='right-icon'/>
             {/*Profile Image*/}
-            <AccountCircleRoundedIcon fontSize='large' className='right-icon icon'/>
+            <AccountCircleRoundedIcon fontSize='large' className='right-icon'/>
         </div>
     </div>
 

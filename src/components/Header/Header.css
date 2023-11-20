@@ -55,6 +55,13 @@
 
 /* styles for header-right elements */
 
+
+.icon {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
 .header-right {
     display: flex;
     flex: 0.3;
@@ -64,6 +71,8 @@
 .right-icon {
     margin-right: .7em;
     color: var(--text-color);
+    padding: 3px 6px;
+    border-radius: 10px;
 }
 
 a {
@@ -72,6 +81,11 @@ a {
 }
 
 .icon:hover {
+    color: orangered;
+    background-color: var(--search-bar-color);
+}
+
+.right-icon:hover {
     color: orangered;
     background-color: var(--search-bar-color);
 }

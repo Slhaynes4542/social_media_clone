@@ -1,0 +1,76 @@
+:root{
+    --haeder-dark-theme: #242526;
+    --text-color: #e4e6eb;
+    --search-bar-color: #3a3b3c;
+    --primary: #3f51b5;
+    --secondary:#b0b3b8;
+    --back-color: #18191a;
+}
+
+.create-post {
+    background-color: var(--haeder-dark-theme);
+    padding: 20px 20px 10px 20px;
+    border-radius: 10px;
+    margin-bottom: .75em;
+}
+
+.entry {
+    display: flex;
+    padding-bottom: .75em;
+    border-bottom: 2px solid var(--search-bar-color);
+}
+
+.entry-bar {
+    display: flex;
+    color: var(--text-color);
+    align-items: center;
+    align-self: center;
+    padding-left: .7em;
+    background: var(--search-bar-color); 
+    border-radius: 30px;
+    height: 95%;
+    width: 50%;
+    margin-left: .6em;
+}
+
+.input-bar {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px;
+}
+
+.submit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-button {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: .75em;
+    align-items: center;
+    font-size: .80em;
+}
+
+.submit-button:hover {
+    background-color: var(--search-bar-color);
+}
+
+
+.video-icon {
+    color: rgb(173, 61, 61);
+    margin-right: .2em;
+}
+
+.photo-icon {
+    color: limegreen;
+    margin-right: .2em;
+}
+
+.feeling-icon {
+    color: goldenrod;
+    margin-right: .2em;
+}

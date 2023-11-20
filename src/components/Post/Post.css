@@ -61,8 +61,7 @@ img {
 }
 
 .like-button:hover {
-    background-color: var(--secondary);
-    opacity: .85;
+    background-color: var(--search-bar-color);
 }
 
 .comment-button {
@@ -75,8 +74,7 @@ img {
 }
 
 .comment-button:hover {
-    background-color: var(--secondary);
-    opacity: .85;
+    background-color: var(--search-bar-color);
 }
 
 .share-button {
@@ -89,8 +87,7 @@ img {
 }
 
 .share-button:hover {
-    background-color: var(--secondary);
-    opacity: .85;
+    background-color: var(--search-bar-color);
 }
 
 .interaction-results {
@@ -104,4 +101,8 @@ img {
 
 .star-icon {
     color: darkgoldenrod;
+}
+
+.post-icon {
+    margin-right: .3em;
 }

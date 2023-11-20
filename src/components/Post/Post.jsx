@@ -35,17 +35,17 @@ function Post({image, name, text, content}) {
         <div className='interaction_bar'>
           <div className='like-button'>
              {/*Like button*/}
-             <ThumbUpOffAltIcon/>
+             <ThumbUpOffAltIcon className='post-icon'/>
             <p>Like</p>
           </div>
           <div className='comment-button'>
             {/*Comment Button*/}
-            <CommentIcon/>
+            <CommentIcon className='post-icon'/>
             <p>Comment</p>
           </div>
           <div className="share-button">
             {/*Share Button*/}
-            <ShareIcon/>
+            <ShareIcon className='post-icon'/>
             <p>Share</p>
           </div>
           
