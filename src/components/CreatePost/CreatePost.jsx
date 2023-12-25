@@ -7,8 +7,18 @@ import {
     MoodRoundedIcon
   } from '../../utils/Icons'
 
+function AddPost(postList, setList, text, url){
+    const newPost = {img_url: url, name: "Sam Haynes", message: text}
+    setList([newPost,...postList])
+    console.log("In add post")
+    
+    //TO-DO: clear input
+}
 
-function CreatePost() {
+function CreatePost(props) {
+
+    const [textInput, setTextInput] = useState(); 
+    const [imgInput, setImgInput] = useState(); 
 
   return (
     <>
@@ -18,11 +28,11 @@ function CreatePost() {
                 {/*text entry*/}
                  {/* Search Bar */}
                 <div className="entry-bar">
-                    <input placeholder="What's on your mind, Sam?" className='input-bar' />
+                    <input id="text-input" value={textInput} onInput={e=> setTextInput(e.target.value)} placeholder="What's on your mind, Sam?" className='input-bar' />
                 </div>
                 {/*url entry*/}
                 <div className="entry-bar">
-                    <input placeholder="Enter a URL (optional)" className='input-bar' />
+                    <input placeholder="Enter a URL (optional)" value={imgInput} onInput={e=>setImgInput(e.target.value)} className='input-bar' />
                 </div>
             </div>
             <div className="submit">
@@ -37,7 +47,7 @@ function CreatePost() {
                     <h3>Photo/video</h3>
                 </div>
                 {/*feeling/activity*/}
-                <div className="feelings submit-button">
+                <div onClick={() => AddPost(props.posts, props.setPostList, textInput, imgInput)} className="feelings submit-button">
                     <MoodRoundedIcon className='feeling-icon'/>
                     <h3>Feeling/interaction</h3>
                 </div>

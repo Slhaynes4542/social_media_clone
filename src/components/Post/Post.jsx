@@ -22,7 +22,7 @@ function Post({image, name, text, content}) {
         </div> 
         
         {/*content: text */}
-        <p>This is a post I made today</p>
+        <p>{text}</p>
         {/*content: image*/}
         <div className="image">
           <img src={image} alt="" />
