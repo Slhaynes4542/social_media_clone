@@ -1,0 +1,35 @@
+{
+    "posts": [
+        {
+            "name": "Samuel Haynes",
+            "message": "My first post!",
+            "img_url": "https://picsum.photos/400/300"
+        },
+        {
+            "name": "John Doe",
+            "message": "This is john's post",
+            "img_url": "https://picsum.photos/400/300"
+        },
+        {
+            "name": "Michael Doe",
+            "message": "This is michael's post",
+            "img_url": "https://picsum.photos/400/300"
+        },
+        {
+            "name": "Larry Doe",
+            "message": "This is Larrt's post",
+            "img_url": "https://picsum.photos/400/300"
+        },
+        {
+            "name": "Denny Doe",
+            "message": "This is Denny's post",
+            "img_url": "https://picsum.photos/400/300"
+        },
+        {
+            "name": "Ash Doe",
+            "message": "This is Ash's post",
+            "img_url": "https://picsum.photos/400/300"
+        }
+
+    ]
+}
